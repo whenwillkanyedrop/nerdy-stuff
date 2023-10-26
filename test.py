@@ -3,6 +3,7 @@ import os
 import wave
 import librosa
 import numpy as np
+import pickle
 from sys import byteorder
 from array import array
 from struct import pack
@@ -44,10 +45,7 @@ def trim(snd_data):
                 r.append(i)
         return r
 
-    # Trim to the left
     snd_data = _trim(snd_data)
-
-    # Trim to the right
     snd_data.reverse()
     snd_data = _trim(snd_data)
     snd_data.reverse()
