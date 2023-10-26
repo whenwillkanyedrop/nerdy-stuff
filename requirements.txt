@@ -1,7 +1,8 @@
 tensorflow
-scikit-learn
+sckit-learn
 numpy
 pandas
 tqdm
 pyaudio
 librosa
+pickle
