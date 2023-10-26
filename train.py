@@ -3,7 +3,6 @@ from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStoppi
 
 from utils import load_data, split_data, create_model
 
-# load the dataset
 X, y = load_data()
 # split the data into training, validation and testing sets
 data = split_data(X, y, test_size=0.1, valid_size=0.1)
