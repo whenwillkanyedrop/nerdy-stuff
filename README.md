@@ -4,6 +4,9 @@ if u want to use this, here are the steps!
 
 first clone the repository...
 
+#### if ur from my science fair thing, this isn't updated i havn't incorperated the gui into this yet, 2 lazy anyway...
+#### if ur from my feds.lol/eskol page get outa here lurking bum
+
     git clone https://github.com/Lgao978/Gender-deciding-thingy
     
 open cmd as admin, and change the directory to the right one
